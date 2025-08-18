@@ -30,7 +30,8 @@ if cross_road == "left":
     lake = input("Type 'wait' to wait for a boat. Type 'swim' to swim across ").lower()
     if lake == "wait":
         door = input(
-            "You've arrived at the island unhamred. There is a house with 3 doors. One red, one yellow, and one blue. Which color do you choose? "
+            "You've arrived at the island unhamred. There is a house with 3 doors. " \
+            "One red, one yellow, and one blue. Which color do you choose? "
         ).lower()
         if door == "red":
             print("Burned by fire. Game Over!")
